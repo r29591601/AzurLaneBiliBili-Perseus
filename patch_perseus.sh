@@ -24,9 +24,9 @@ done
 chmod +x apkeep
 
 # Download Azur Lane
-if [ ! -f "com.hkmanjuu.azurlane.gp.mc.apk" ]; then
+if [ ! -f "com.hkmanjuu.azurlane.gp.apk" ]; then
     echo "Get Azur Lane apk"
-    wget https://www.mygame.com.tw/MyGameAD/Accept.aspx?P=YAS3ZA2RSR&S=QUNRMMN7HY -O com.hkmanjuu.azurlane.gp.mc.apk -q
+    wget https://github.com/r29591601/AzurLaneTW-Perseus/releases/download/untagged-664c74abf1b10b4a90b8/com.hkmanjuu.azurlane.gp.patched.apk -O com.hkmanjuu.azurlane.gp.apk -q
     echo "apk downloaded !"
 fi
 
